@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  producer_id: 
+  product_id: 
+  amount: 1
+  mfgd_date: 2016-05-30
+  expiry_date: 2016-05-30
+  lot_id: MyString
+
+two:
+  producer_id: 
+  product_id: 
+  amount: 1
+  mfgd_date: 2016-05-30
+  expiry_date: 2016-05-30
+  lot_id: MyString

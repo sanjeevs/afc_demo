@@ -1,0 +1,40 @@
+ 2014  rails new afc_demo
+ 2017  rails g scaffold product name amount:integer adjust:integer comment:text --skip-stylesheets
+ 2021  rails g bootstrap:install
+ 2038  rails g bootstrap:install less
+ 2052  rails g bootstrap:themed products -f
+ 2079  history |grep rails
+ 2080  rails g scaffold customer name address email phone --skip-stylesheets
+ 2085  rails c
+ 2088  rails c
+ 2091  rails c
+ 2093  rails c
+ 2097  rails c
+ 2098  history |grep rails
+ 2099  rails g bootstrap:themed customers -f
+ 2100  rails g scaffold producer name address email phone --skip-stylesheets
+ 2105  rails g bootstrap:themed producers -f
+ 2106  rails c
+ 2107  rails g scaffold supplier name address email phone --skip-stylesheets
+ 2109  rails c
+ 2110  rails g bootstrap:themed suppliers -f
+ 2112  rails c
+ 2115  rails c
+ 2116  rails g scaffold production_run producer:references product:references amount:integer mfgd_date:date expiry_date:date lot_id
+ 2119  rails g scaffold supply name amount:integer unit adjust:integer --skip-stylesheets
+ 2121  rails g bootstrap:themed supplies -f
+ 2122  rails g scaffold supply_consumption supply:references amount:integer production_run:references --skip-stylesheets
+ 2125  rails g bootstrap:themed supply_consumptions -f
+ 2126  rails g bootstrap:themed proudction_runs -f
+ 2127  rails g bootstrap:themed production_runs -f
+ 2128  rails g scaffold production_shipment sent:integer return:integer product:references customer:references ship_date:date --skip-stylesheets
+ 2133  rails g bootstrap:themed product_shipments -f
+ 2134  rails g bootstrap:themed production_shipments -f
+ 2135  rails destroy scaffold production_shipment
+ 2136  rails g scaffold product_shipment sent:integer return:integer product:references customer:references ship_date:date --skip-stylesheets
+ 2137  rails g bootstrap:themed product_shipments -f
+ 2141  rails g bootstrap:themed product_shipments -f
+ 2142  rails g scaffold supply_shipment rcvd:integer return:integer supply:references supplier:references ship_date:date --skip-stylesheets
+ 2146  rails g bootstrap:themed supply_shipments -f
+ 2147  history |grep rails
+ 2148  history |grep rails >my_cmds.txt

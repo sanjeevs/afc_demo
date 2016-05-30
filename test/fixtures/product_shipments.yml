@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sent: 1
+  return: 1
+  product_id: 
+  customer_id: 
+  ship_date: 2016-05-30
+
+two:
+  sent: 1
+  return: 1
+  product_id: 
+  customer_id: 
+  ship_date: 2016-05-30

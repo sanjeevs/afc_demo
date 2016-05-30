@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  supply_id: 
+  amount: 1
+  production_run_id: 
+
+two:
+  supply_id: 
+  amount: 1
+  production_run_id: 

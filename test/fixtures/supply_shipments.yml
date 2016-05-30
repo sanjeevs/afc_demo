@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rcvd: 1
+  return: 1
+  supply_id: 
+  supplier_id: 
+  ship_date: 2016-05-30
+
+two:
+  rcvd: 1
+  return: 1
+  supply_id: 
+  supplier_id: 
+  ship_date: 2016-05-30
